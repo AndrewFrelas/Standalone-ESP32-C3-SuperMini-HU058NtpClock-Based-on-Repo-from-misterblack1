@@ -1,6 +1,9 @@
 # ESP32-C3 SuperMini to HU-058 MCU footprint wiring
 
-Based on the clock project done by Adrian from the youtube channel Adrians digital basement https://youtu.be/vgfV_IGmhGA?si=nM0Irj1oQnthL4y8
+Based on the clock project done by Adrian from the youtube channel Adrian's Digital Basement his information is provided below.
+
+His Youtube video: https://youtu.be/vgfV_IGmhGA?si=nM0Irj1oQnthL4y8
+His Original Github Repo: https://github.com/misterblack1/HU-058_ESPHome
 
 This project is based on the cheaper of the 2 clocks the one that just uses the rtc chip and STC8G1K17 the code was changed from the original repo using claude so that it would fully rely only on the esp32 super mini and not have to rely on home assistant or anything further and just works stand alone.
 
