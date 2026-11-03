@@ -1,4 +1,4 @@
-// HU058NtpClock - Ractl Designs
+// HU058NtpClock
 // NTP clock firmware for the HU-058 / HU-058SE "IoT Colorful" clock kit (STC8G1K17 + DS1302
 // board), with an ESP32-C3 SuperMini in place of the STC8G1K17 driving both AiP33628 matrix
 // drivers directly. Time, time zone, daylight saving, colours, effects and settings run on the
