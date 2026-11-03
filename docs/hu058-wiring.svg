@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="590" viewBox="0 0 880 590" role="img" aria-label="Wiring from the ESP32-C3 SuperMini to the clock's empty DIP-16 MCU footprint: GPIO4 to pin 16, GPIO5 to pin 5, GPIO6 to pin 1, GPIO7 to pin 2, GPIO3 to pin 9, GPIO10 to pin 10, 5V to pin 6, GND to pin 8.">
+  <title>HU058 clock: ESP32-C3 SuperMini wiring</title>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .lbl { font-size: 12px; font-weight: 500; fill: #1d2420; }
+    .sm  { font-size: 11px; fill: #5f6b65; }
+    .bd  { font-size: 11px; font-weight: 500; fill: #e9f1ed; }
+    .ttl { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 600; fill: #1d2420; }
+  </style>
+  <rect x="0" y="0" width="880" height="590" fill="#ffffff"/>
+        <!-- ESP32-C3 SuperMini, component side up, USB-C at the top -->
+        <text class="ttl" x="195" y="34" text-anchor="middle">ESP32-C3 SuperMini</text>
+        <text class="sm" x="195" y="50" text-anchor="middle">component side, USB-C up</text>
+        <rect x="110" y="96" width="170" height="370" rx="8" fill="#1f3a32"/>
+        <rect x="167" y="84" width="56" height="22" rx="5" fill="#5f6b65"/>
+        <text class="bd" x="195" y="290" text-anchor="middle">C3</text>
+        <!-- left row: 5V, GND, 3V3, 4, 3, 2, 1, 0 -->
+        <g>
+          <circle cx="126" cy="140" r="7" fill="#c9a64b"/><text class="bd" x="140" y="144">5V</text>
+          <circle cx="126" cy="180" r="7" fill="#c9a64b"/><text class="bd" x="140" y="184">GND</text>
+          <circle cx="126" cy="220" r="7" fill="#c9a64b" opacity=".45"/><text class="bd" x="140" y="224" opacity=".6">3V3</text>
+          <circle cx="126" cy="260" r="7" fill="#c9a64b"/><text class="bd" x="140" y="264">4</text>
+          <circle cx="126" cy="300" r="7" fill="#c9a64b"/><text class="bd" x="140" y="304">3</text>
+          <circle cx="126" cy="340" r="7" fill="#c9a64b" opacity=".45"/><text class="bd" x="140" y="344" opacity=".6">2</text>
+          <circle cx="126" cy="380" r="7" fill="#c9a64b" opacity=".45"/><text class="bd" x="140" y="384" opacity=".6">1</text>
+          <circle cx="126" cy="420" r="7" fill="#c9a64b" opacity=".45"/><text class="bd" x="140" y="424" opacity=".6">0</text>
+        </g>
+        <!-- right row: 5, 6, 7, 8, 9, 10, 20, 21 -->
+        <g>
+          <circle cx="264" cy="140" r="7" fill="#c9a64b"/><text class="bd" x="250" y="144" text-anchor="end">5</text>
+          <circle cx="264" cy="180" r="7" fill="#c9a64b"/><text class="bd" x="250" y="184" text-anchor="end">6</text>
+          <circle cx="264" cy="220" r="7" fill="#c9a64b"/><text class="bd" x="250" y="224" text-anchor="end">7</text>
+          <circle cx="264" cy="260" r="7" fill="#c9a64b" opacity=".45"/><text class="bd" x="250" y="264" text-anchor="end" opacity=".6">8</text>
+          <circle cx="264" cy="300" r="7" fill="#c9a64b" opacity=".45"/><text class="bd" x="250" y="304" text-anchor="end" opacity=".6">9</text>
+          <circle cx="264" cy="340" r="7" fill="#c9a64b"/><text class="bd" x="250" y="344" text-anchor="end">10</text>
+          <circle cx="264" cy="380" r="7" fill="#c9a64b" opacity=".45"/><text class="bd" x="250" y="384" text-anchor="end" opacity=".6">20</text>
+          <circle cx="264" cy="420" r="7" fill="#c9a64b" opacity=".45"/><text class="bd" x="250" y="424" text-anchor="end" opacity=".6">21</text>
+        </g>
+        <!-- Clock board: empty DIP-16 MCU footprint, pin 1 at the notch end -->
+        <text class="ttl" x="680" y="80" text-anchor="middle">Clock board, MCU footprint (DIP-16)</text>
+        <rect x="600" y="104" width="160" height="262" rx="4" fill="none" stroke="#c4cac6" stroke-width="2"/>
+        <path d="M668 104 a12 12 0 0 0 24 0" fill="none" stroke="#c4cac6" stroke-width="2"/>
+        <g>
+          <!-- left column, pins 1-8 top to bottom -->
+          <rect x="609" y="123" width="14" height="14" fill="#c9a64b"/><text class="lbl" x="630" y="134">1 CLK_1</text>
+          <circle cx="616" cy="160" r="7" fill="#c9a64b"/><text class="lbl" x="630" y="164">2 DATA_1</text>
+          <circle cx="616" cy="190" r="7" fill="#c4cac6"/><text class="sm" x="630" y="194">3 NTC</text>
+          <circle cx="616" cy="220" r="7" fill="#c4cac6"/><text class="sm" x="630" y="224">4 LDR</text>
+          <circle cx="616" cy="250" r="7" fill="#c9a64b"/><text class="lbl" x="630" y="254">5 DATA</text>
+          <circle cx="616" cy="280" r="7" fill="#c9a64b"/><text class="lbl" x="630" y="284">6 +5V</text>
+          <circle cx="616" cy="310" r="7" fill="#c4cac6"/><text class="sm" x="630" y="314">7 n/c</text>
+          <circle cx="616" cy="340" r="7" fill="#c9a64b"/><text class="lbl" x="630" y="344">8 GND</text>
+          <!-- right column, pins 16-9 top to bottom -->
+          <circle cx="744" cy="130" r="7" fill="#c9a64b"/><text class="lbl" x="730" y="134" text-anchor="end">16</text>
+          <circle cx="744" cy="160" r="7" fill="#c4cac6"/><text class="sm" x="730" y="164" text-anchor="end">15</text>
+          <circle cx="744" cy="190" r="7" fill="#c4cac6"/><text class="sm" x="730" y="194" text-anchor="end">RST 14</text>
+          <circle cx="744" cy="220" r="7" fill="#c4cac6"/><text class="sm" x="730" y="224" text-anchor="end">IO 13</text>
+          <circle cx="744" cy="250" r="7" fill="#c4cac6"/><text class="sm" x="730" y="254" text-anchor="end">SCLK 12</text>
+          <circle cx="744" cy="280" r="7" fill="#c4cac6"/><text class="sm" x="730" y="284" text-anchor="end">BUZ 11</text>
+          <circle cx="744" cy="310" r="7" fill="#c9a64b"/><text class="lbl" x="730" y="314" text-anchor="end">S2 10</text>
+          <circle cx="744" cy="340" r="7" fill="#c9a64b"/><text class="lbl" x="730" y="344" text-anchor="end">S1 9</text>
+        </g>
+        <!-- Wires: each drawn over a halo so crossings read as bridges, never as joins -->
+                        <g fill="none" stroke-linejoin="round">
+          <path d="M119 260 H64 V58 H840 V130 H751" stroke="#ffffff" stroke-width="8"/>
+          <path d="M119 260 H64 V58 H840 V130 H751" stroke="#2a63c9" stroke-width="3"/>
+          <path d="M119 300 H76 V510 H800 V340 H751" stroke="#ffffff" stroke-width="8"/>
+          <path d="M119 300 H76 V510 H800 V340 H751" stroke="#b8730a" stroke-width="3"/>
+          <path d="M271 140 H330 V250 H609" stroke="#ffffff" stroke-width="8"/>
+          <path d="M271 140 H330 V250 H609" stroke="#128a5c" stroke-width="3"/>
+          <path d="M271 180 H360 V130 H609" stroke="#ffffff" stroke-width="8"/>
+          <path d="M271 180 H360 V130 H609" stroke="#2a63c9" stroke-width="3"/>
+          <path d="M271 220 H390 V160 H609" stroke="#ffffff" stroke-width="8"/>
+          <path d="M271 220 H390 V160 H609" stroke="#128a5c" stroke-width="3"/>
+          <path d="M271 340 H430 V384 H820 V310 H751" stroke="#ffffff" stroke-width="8"/>
+          <path d="M271 340 H430 V384 H820 V310 H751" stroke="#b8730a" stroke-width="3"/>
+          <path d="M119 180 H52 V535 H560 V340 H609" stroke="#ffffff" stroke-width="8"/>
+          <path d="M119 180 H52 V535 H560 V340 H609" stroke="#39413d" stroke-width="3"/>
+          <path d="M119 140 H40 V560 H580 V280 H609" stroke="#ffffff" stroke-width="8"/>
+          <path d="M119 140 H40 V560 H580 V280 H609" stroke="#c8382e" stroke-width="3"/>
+        </g>
+        <!-- Wire labels -->
+        <text class="lbl" x="500" y="124" text-anchor="middle">GPIO6 -&gt; CLK_1</text>
+        <text class="lbl" x="500" y="154" text-anchor="middle">GPIO7 -&gt; DATA_1</text>
+        <text class="lbl" x="500" y="244" text-anchor="middle">GPIO5 -&gt; DATA</text>
+        <text class="lbl" x="452" y="52" text-anchor="middle">GPIO4 -&gt; CLK (pin 16)</text>
+        <text class="lbl" x="700" y="378" text-anchor="middle">GPIO10 -&gt; S2</text>
+        <text class="lbl" x="690" y="504" text-anchor="middle">GPIO3 -&gt; S1</text>
+        <text class="lbl" x="300" y="529" text-anchor="middle">GND -&gt; pin 8</text>
+        <text class="lbl" x="300" y="554" text-anchor="middle">5V -&gt; pin 6</text>
+      </svg>
