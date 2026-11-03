@@ -1,6 +1,6 @@
-ESP32-C3 SuperMini to HU-058 MCU footprint wiring
+### ESP32-C3 SuperMini to HU-058 MCU footprint wiring
 
-Based on the clock project done by Adrian from the youtube channel Adrians digital basement https://youtu.be/vgfV_IGmhGA?si=nM0Irj1oQnthL4y8
+## Based on the clock project done by Adrian from the youtube channel Adrians digital basement https://youtu.be/vgfV_IGmhGA?si=nM0Irj1oQnthL4y8
 
 This project is based on the cheaper of the 2 clocks the one that just uses the rtc chip and STC8G1K17 the code was changed from the original repo using claude so that it would fully rely only on the esp32 super mini and not have to rely on home assistant or anything further and just works stand alone.
 
@@ -23,7 +23,7 @@ The display side comes assembled. Nothing else is needed. Solder all those parts
 
 ![UV Cure](/docs/ip3M33_eRe6IRE2ybzLQYQ.jpg?raw=true)
 
-## Follow the diagram below to hook up the esp32 super mini to the board and change the ssid and password in the firmware to your own and flash it to the board using arduino studio
+Follow the diagram below to hook up the esp32 super mini to the board and change the ssid and password in the firmware to your own and flash it to the board using arduino studio
 
 ![UV Cure](/docs/hu058-wiring.svg?raw=true)
 
@@ -37,7 +37,19 @@ After curing the uv adhesive the boards should not move and be locked together a
 
 Please note this may not do all that the original firmware Adrian made its more of a compact version of it to just tell the time and stuff and control the rgb. To control everything you can go to the clocks ip or use the mdns that is set in the firmware. If you build more then 1 of these clocks i recommend changing the mdns name so they do not clash on the network. Finally once done you can screw the whole thing back together.
 
-## Issues and notes
+## Buttons
+
+| Button | Action | What it does |
+|---|---|---|
+| **S1** (top, marked SW2) | Tap | Next brightness step: 5, 15, 30, 50, 75, 100 % (shows `b 50` etc.). Also turns the display back on if it was off. |
+| **S1** | Hold 1 s | Display on / off |
+| **S2** (bottom, marked SW1) | Tap | Next effect: none, colour cycle, flash (shows `EF 0`, `EF 1`, `EF 2`) |
+| **S2** | Hold 1 s | Show the IP address one number at a time, or `no nEt` if Wi-Fi is down |
+| **Both** | Hold 10 s | Factory reset. A countdown appears after 2 s; let go before it ends to cancel. Clears all web page settings; Wi-Fi is kept because it is set in the sketch. |
+
+Brightness and effect changes made with the buttons are saved about 5 seconds after the last press.
+
+### Issues and notes
 
 I have not tested the ota update feature so not sure if it works and most of the other features in the firmware besides ntp accuracy and changing colors and such.
 
