@@ -1,4 +1,4 @@
-### ESP32-C3 SuperMini to HU-058 MCU footprint wiring
+# ESP32-C3 SuperMini to HU-058 MCU footprint wiring
 
 Based on the clock project done by Adrian from the youtube channel Adrians digital basement https://youtu.be/vgfV_IGmhGA?si=nM0Irj1oQnthL4y8
 
