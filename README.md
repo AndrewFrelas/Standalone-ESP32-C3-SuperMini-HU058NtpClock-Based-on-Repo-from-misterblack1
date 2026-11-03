@@ -70,7 +70,7 @@ Brightness and effect changes made with the buttons are saved about 5 seconds af
 
 ### Issues and notes
 
-I have now tested the ota update feature and it works. Most of the other critical features have also been tested but this software is provided as-is and may not be free of defects or errors. We will not be providing .bin binaries in this repo as we want the code to stay transparent.
+I have now tested the ota update feature and it works. Most of the other critical features have also been tested but this software is provided as-is and may not be free of defects or errors. I will not be providing .bin binaries in this repo as we want the code to stay transparent.
 
 Note: that i use uv cure adhesive i recommend this over superglue as it works better to bond the 2 pcb boards together but you will need the glue and some sort of uv cure light to cure said adhisive.
 
