@@ -27,6 +27,21 @@ Follow the diagram below to hook up the esp32 super mini to the board and change
 
 ![UV Cure](/docs/hu058-wiring.svg?raw=true)
 
+## Wire list
+
+| Wire | SuperMini | Clock board | Signal | Notes |
+|---|---|---|---|---|
+| Blue | `GPIO4` | `DIP pin 16` | CLK, driver 1 (hours) | Not pin 14: that is the DS1302 RST line on this board |
+| Green | `GPIO5` | `DIP pin 5` | DATA, driver 1 (hours) | |
+| Blue | `GPIO6` | `DIP pin 1` | CLK_1, driver 2 (minutes) | Pin 1 is the notch / square-pad end |
+| Green | `GPIO7` | `DIP pin 2` | DATA_1, driver 2 (minutes) | |
+| Orange | `GPIO3` | `DIP pin 9` | S1, top button | Button marked SW2 on the board |
+| Orange | `GPIO10` | `DIP pin 10` | S2, bottom button | Button marked SW1 on the board |
+| Red | `5V` | `DIP pin 6` | +5V (VCC) in | Clock's micro USB feeds the panel and the SuperMini |
+| Black | `GND` | `DIP pin 8` | Ground | |
+
+Header P3 is not needed. Its pins, from the schematic, are 1 +5V, 2 GND, 3 S2, 4 S1.
+
 once it is wired in you can position the esp32 super mini in the corner of the board where the power usb would normally go and use uv adhesive again to bond the super mini to the other circuit board.
 
 ![UV Cure](/docs/mryWDEfGQfSNnCoLofs8OQ.jpg?raw=true)
