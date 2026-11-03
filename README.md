@@ -41,7 +41,7 @@ Please note this may not do all that the original firmware Adrian made its more 
 
 I have not tested the ota update feature so not sure if it works and most of the other features in the firmware besides ntp accuracy and changing colors and such.
 
-Note that i use uv cure adhesive i recommend this over superglue as it works better to bond the 2 pcb boards together but you will need the glue and some sort of uv cure light to cure said adhisive.
-
+Note: that i use uv cure adhesive i recommend this over superglue as it works better to bond the 2 pcb boards together but you will need the glue and some sort of uv cure light to cure said adhisive.
+Note: For my testing I am using my own local gps based stratum1 ntp server but the code published to the repo uses the nrc public ntp servers instead this was done just to test accuracy while building the firmware and is fully unnecessary for the clock to actually function as by default it will use public ntp servers instead to get its time.
 
 
