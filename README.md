@@ -15,7 +15,6 @@ From the kit all you will need is to solder the following items onto the pcb
 ## Install from the kit
 
 - **SW1, SW2** buttons
-- **USB1** micro USB jack (power in)
 - **C3** 100 nF, beside the MCU footprint: decouples +5V where the SuperMini lands
 - **C4** 100 nF: decoupling on the +5V rail
 
