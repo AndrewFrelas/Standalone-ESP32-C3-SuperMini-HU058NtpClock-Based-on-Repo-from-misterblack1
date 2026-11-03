@@ -35,11 +35,13 @@ After curing the uv adhesive the boards should not move and be locked together a
 
 ![UV Cure](/docs/c1F0HmMaQquywnAZ0_dBHA.jpg?raw=true)
 
-Please note this may not do all that the original firmware Adrian made its more of a compact version of it to just tell the time and stuff and control the rgb.
+Please note this may not do all that the original firmware Adrian made its more of a compact version of it to just tell the time and stuff and control the rgb. To control everything you can go to the clocks ip or use the mdns that is set in the firmware. If you build more then 1 of these clocks i recommend changing the mdns name so they do not clash on the network. Finally once done you can screw the whole thing back together.
 
 ## Issues and notes
 
 I have not tested the ota update feature so not sure if it works and most of the other features in the firmware besides ntp accuracy and changing colors and such.
+
+Note that i use uv cure adhesive i recommend this over superglue as it works better to bond the 2 pcb boards together but you will need the glue and some sort of uv cure light to cure said adhisive.
 
 
 
