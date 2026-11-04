@@ -51,6 +51,8 @@ once it is wired in you can position the esp32 super mini in the corner of the b
 
 After curing the uv adhesive the boards should not move and be locked together and you are almost done you will need to cut away a bit from the case to fit the new height of the port and be careful you cut the right parts you can see in the picture you will need to cut 1 of the screw posts and the plastic wall area if you want to be neat you can spend time with a rotary tool to make it fit or use side cutters like i did.
 
+Note: If you are having trouble with wifi and poor signal or the clock struggling make sure you do not cover the wifi antenna with the wires on the C3 Super Mini like i did in my picture i had to later on move the wires. The wifi part is the red chip on the board.
+
 ![UV Cure](/docs/c1F0HmMaQquywnAZ0_dBHA.jpg?raw=true)
 
 Please note this may not do all that the original firmware Adrian made its more of a compact version of it to just tell the time and stuff and control the rgb. To control everything you can go to the clocks ip or use the mdns that is set in the firmware. If you build more then 1 of these clocks i recommend changing the mdns name so they do not clash on the network. Finally once done you can screw the whole thing back together.
@@ -74,6 +76,4 @@ I have now tested the ota update feature and it works. Most of the other critica
 Note: that i use uv cure adhesive i recommend this over superglue as it works better to bond the 2 pcb boards together but you will need the glue and some sort of uv cure light to cure said adhisive.
 
 Note: For my testing I am using my own local gps based stratum1 ntp server but the code published to the repo uses the nrc public ntp servers instead this was done just to test accuracy while building the firmware and is fully unnecessary for the clock to actually function as by default it will use public ntp servers instead to get its time.
-
-Note: If you are having trouble with wifi and poor signal or the clock struggling make sure you do not cover the wifi antenna with the wires on the C3 Super Mini like i did in my picture i had to later on move the wires. The wifi part is the red chip on the board.
 
