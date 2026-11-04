@@ -49,9 +49,9 @@ once it is wired in you can position the esp32 super mini in the corner of the b
 
 ![UV Cure](/docs/mryWDEfGQfSNnCoLofs8OQ.jpg?raw=true)
 
-After curing the uv adhesive the boards should not move and be locked together and you are almost done you will need to cut away a bit from the case to fit the new height of the port and be careful you cut the right parts you can see in the picture you will need to cut 1 of the screw posts and the plastic wall area if you want to be neat you can spend time with a rotary tool to make it fit or use side cutters like i did.
-
 Note: If you are having trouble with wifi and poor signal or the clock struggling make sure you do not cover the wifi antenna with the wires on the C3 Super Mini like i did in my picture i had to later on move the wires. The wifi part is the red chip on the board.
+
+After curing the uv adhesive the boards should not move and be locked together and you are almost done you will need to cut away a bit from the case to fit the new height of the port and be careful you cut the right parts you can see in the picture you will need to cut 1 of the screw posts and the plastic wall area if you want to be neat you can spend time with a rotary tool to make it fit or use side cutters like i did.
 
 ![UV Cure](/docs/c1F0HmMaQquywnAZ0_dBHA.jpg?raw=true)
 
