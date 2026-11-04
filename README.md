@@ -75,4 +75,5 @@ Note: that i use uv cure adhesive i recommend this over superglue as it works be
 
 Note: For my testing I am using my own local gps based stratum1 ntp server but the code published to the repo uses the nrc public ntp servers instead this was done just to test accuracy while building the firmware and is fully unnecessary for the clock to actually function as by default it will use public ntp servers instead to get its time.
 
+Note: If you are having trouble with wifi and poor signal or the clock struggling make sure you do not cover the wifi antenna with the wires on the C3 Super Mini the wifi part is the red chip on the board.
 
