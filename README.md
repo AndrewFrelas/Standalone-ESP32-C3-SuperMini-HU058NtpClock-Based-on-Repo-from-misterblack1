@@ -55,7 +55,7 @@ After curing the uv adhesive the boards should not move and be locked together a
 
 ![UV Cure](/docs/c1F0HmMaQquywnAZ0_dBHA.jpg?raw=true)
 
-Please note this may not do all that the original firmware Adrian made its more of a compact version of it to just tell the time and stuff and control the rgb. To control everything you can go to the clocks ip or use the mdns that is set in the firmware. If you build more then 1 of these clocks i recommend changing the mdns name so they do not clash on the network. Finally once done you can screw the whole thing back together.
+Please note this may not do all the things that the original firmware Adrian made its more of a compact version of it to just tell the time and stuff and control the rgb. To control everything you can go to the clocks ip or use the mdns that is set in the firmware. If you build more then 1 of these clocks i recommend changing the mdns name so they do not clash on the network. Finally once done you can screw the whole thing back together.
 
 ## Buttons
 
